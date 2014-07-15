@@ -1,0 +1,47 @@
+V Aberdeen
+V Glasgow
+V Edinburgh
+V Carlisle
+V Newcastle-Upon-Tyne
+V Liverpool
+V Sheffield
+V Grimsby
+V Birmingham
+V Swansea
+V Cardiff
+V Cambridge
+V London
+V Plymouth
+V Southampton
+V Dover
+
+E Aberdeen Glasgow 235
+E Aberdeen Edinburgh 205
+E Glasgow Edinburgh 75
+E Edinburgh Carlisle 157
+E Glasgow Carlisle 154
+E Edinburgh Newcastle-Upon-Tyne 193
+E Carlisle Newcastle-Upon-Tyne 95
+E Carlisle Liverpool 201
+E Liverpool Birmingham 158
+E Liverpool Swansea 263
+E Swansea Cardiff 69
+E Cardiff Plymouth 243
+E Plymouth Southampton 244
+E Cardiff Birmingham 175
+E Birmingham Grimsby 228
+E Grimsby Sheffield 112
+E Newcastle-Upon-Tyne Sheffield 216
+E Birmingham Cambridge 160
+E Birmingham London 204
+E Southampton London 127
+E Southampton Dover 241
+E Dover London 123
+E London Cambridge 100
+
+R Newcastle-Upon-Tyne Edinburgh
+R Dover Glasgow
+R Plymouth Aberdeen
+R London Aberdeen
+R London Edinburgh
+R Sheffield Edinburgh

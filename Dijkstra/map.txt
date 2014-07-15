@@ -1,0 +1,30 @@
+# Alle Orte
+V Frankfurt
+V Mannheim
+V Wuerzburg
+V Stuttgart
+V Kassel
+V Karlsruhe
+V Erfurt
+V Nuernberg
+V Erfurt
+V Muenchen
+V Augsburg
+
+# einzelne Routen zwischen den Stadten
+E Frankfurt Mannheim 85
+E Frankfurt Wuerzburg 217
+E Frankfurt Kassel 173
+E Mannheim Karlsruhe 80
+E Wuerzburg Erfurt 186
+E Wuerzburg Nuernberg 103
+E Karlsruhe Augsburg 250
+E Nuernberg Stuttgart 183
+E Augsburg Muenchen 84
+E Nuernberg Muenchen 167
+E Kassel Muenchen 502
+
+# Routenberechnung
+R Frankfurt Muenchen
+R Muenchen Frankfurt
+R Karlsruhe Stuttgart
