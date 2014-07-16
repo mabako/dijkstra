@@ -23,7 +23,7 @@
     <Text Include="map.txt">
       <Filter>Ressourcendateien</Filter>
     </Text>
-    <Text Include="ets.txt">
+    <Text Include="uk.txt">
       <Filter>Ressourcendateien</Filter>
     </Text>
   </ItemGroup>

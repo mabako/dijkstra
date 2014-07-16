@@ -175,6 +175,9 @@ int main()
 	// Orte nach Namen sortiert.
 	map<string, vertex*> karte;
 
+	// Anzahl eingelesener Routen
+	size_t routen = 0;
+
 	// Datei einlesen
 	string zeile;
 	while (getline(datei, zeile))
@@ -222,7 +225,7 @@ int main()
 				v1->neuerNachbar(v2, entfernung);
 				v2->neuerNachbar(v1, entfernung);
 
-				cout << ort1 << " <- " << entfernung << " -> " << ort2 << endl;
+				cout << (++ routen) << ".) " << ort1 << " <- " << entfernung << " -> " << ort2 << endl;
 			}
 		}
 		else if (token == "R")

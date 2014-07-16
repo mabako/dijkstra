@@ -38,10 +38,11 @@ E Southampton London 127
 E Southampton Dover 241
 E Dover London 123
 E London Cambridge 100
+E Sheffield Liverpool 130
 
-R Newcastle-Upon-Tyne Edinburgh
-R Dover Glasgow
+# R Newcastle-Upon-Tyne Edinburgh
+# R Dover Glasgow
 R Plymouth Aberdeen
-R London Aberdeen
-R London Edinburgh
-R Sheffield Edinburgh
+# R London Aberdeen
+# R London Edinburgh
+# R Sheffield Edinburgh
